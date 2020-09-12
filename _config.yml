@@ -1,5 +1,5 @@
 theme: jekyll-theme-cayman
-title: Blurry
+title: Blurryn
 description: The browser extension to blur unwanted contents on any webpage with the customised blur level.
-show_downloads: true
-google_analytics: 
+show_downloads: false
+google_analytics:
