@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blurry</title>
+    <link rel="stylesheet" type="text/css" href="./css/popup.css" />
+  </head>
+
+  <body>
+    <div data-ig="true" id="my-card">
+      <div data-ig="true" id="my-card-container">
+        <div data-ig="true" id="demo-container">
+          <!-- TO DO: Change image source -->
+          <img
+            data-ig="true"
+            id="imageTest"
+            src="../assets/right_scale_brennan-burling-xn602Ft9HJQ-unsplash.jpg"
+            alt="Blur picture example"
+            class="blur-element"
+          />
+          <div id="bg-text">
+            <h1>Blurry</h1>
+            <p>Adjust blur level to see the difference!</p>
+          </div>
+        </div>
+
+        <div data-ig="true" class="container">
+          <div data-ig="true" class="range-slider">
+            <span data-ig="true" id="rs-bullet" class="rs-label">0</span>
+            <input
+              data-ig="true"
+              id="rs-range-line"
+              class="rs-range"
+              type="range"
+              value="22"
+              min="0"
+              max="100"
+            />
+          </div>
+
+          <div data-ig="true" class="box-minmax">
+            <span>0</span><span>10</span>
+          </div>
+        </div>
+
+        <div data-ig="true" id="menu-desc-container">
+          <span data-ig="true" id="menu-desc">Blur Contents</span>
+        </div>
+
+        <div data-ig="true" id="menu-container">
+          <button
+            data-ig="true"
+            data-name="Blur Contents"
+            id="cursor-blur"
+            class="enableEvent button"
+          >
+            <svg
+              data-ig="true"
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fas"
+              data-icon="mouse-pointer"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 320 512"
+            >
+              <path
+                fill="currentColor"
+                d="M302.189 329.126H196.105l55.831 135.993c3.889 9.428-.555 19.999-9.444 23.999l-49.165 21.427c-9.165 4-19.443-.571-23.332-9.714l-53.053-129.136-86.664 89.138C18.729 472.71 0 463.554 0 447.977V18.299C0 1.899 19.921-6.096 30.277 5.443l284.412 292.542c11.472 11.179 3.007 31.141-12.5 31.141z"
+                class=""
+              ></path>
+            </svg>
+          </button>
+          <button
+            data-ig="true"
+            data-name="Remove All Blurred Contents"
+            id="remove-blur"
+            class="removeAllBlur button"
+          >
+            <svg
+              data-ig="true"
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fas"
+              data-icon="trash-alt"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 448 512"
+            >
+              <path
+                fill="currentColor"
+                d="M32 464a48 48 0 0 0 48 48h288a48 48 0 0 0 48-48V128H32zm272-256a16 16 0 0 1 32 0v224a16 16 0 0 1-32 0zm-96 0a16 16 0 0 1 32 0v224a16 16 0 0 1-32 0zm-96 0a16 16 0 0 1 32 0v224a16 16 0 0 1-32 0zM432 32H312l-9.4-18.7A24 24 0 0 0 281.1 0H166.8a23.72 23.72 0 0 0-21.4 13.3L136 32H16A16 16 0 0 0 0 48v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16z"
+                class=""
+              ></path>
+            </svg>
+          </button>
+
+          <button
+            data-ig="true"
+            data-name="Exit Blurry"
+            id="exit-blur"
+            class="removeAllBlur button"
+          >
+            <svg
+              data-ig="true"
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fas"
+              data-icon="times"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 352 512"
+            >
+              <path
+                fill="currentColor"
+                d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+                class=""
+              ></path>
+            </svg>
+          </button>
+        </div>
+
+        <div id="support-us-container">
+          <span id="support-us-title">Support us:</span>
+          <a
+            id="support-us-detail"
+            target="_blank"
+            href="https://www.buymeacoffee.com/doubledude"
+            >Buy Us A Coffee</a
+          >
+          <span hidden>|</span>
+          <a
+            id="support-us-detail"
+            target="_blank"
+            href="https://www.w3schools.com"
+            hidden
+            >Become Our Patreon</a
+          >
+        </div>
+      </div>
+    </div>
+    <script src="./js/popup.bundle.js"></script>
+  </body>
+</html>

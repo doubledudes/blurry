@@ -1,0 +1,57 @@
+.blur-element {
+  filter: blur(var(--blur));
+  -webkit-filter: blur(var(--blur));
+}
+
+.blur-element::after {
+  filter: blur(--blur);
+  -webkit-filter: blur(--blur);
+}
+
+.border-element {
+  cursor: -webkit-grab;
+  cursor: grab;
+  border: 1px solid #48485a;
+}
+
+/* Tooltip */
+.blur-tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.blur-tooltip .blur-tooltip-text {
+  visibility: hidden;
+  width: 200px;
+  background-color: #2b2b2b;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 5px;
+  position: absolute;
+  z-index: 18;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+}
+
+.blur-tooltip .blur-tooltip-text::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #2b2b2b transparent transparent transparent;
+}
+
+.blur-tooltip:hover .blur-tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
