@@ -33,7 +33,7 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/doubledudes/blurry/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support Us
-- https://www.buymeacoffee.com/doubledude
+- [https://www.buymeacoffee.com/doubledude](https://www.buymeacoffee.com/doubledude)
 
 ## Contributors
 
@@ -70,5 +70,4 @@ Thanks goes to these awesome people:
 This project is open source and available under the [MIT License](LICENSE).
 
 ### Contact Us
-- th.thanyathorn@gmail.com
-- dill_sunnyb11@hotmail.com
+`th.thanyathorn@gmail.com` and `dill_sunnyb11@hotmail.com`
