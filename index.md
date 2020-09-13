@@ -32,6 +32,11 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/doubledudes/blurry/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
+## Demo
+[![Blurry](https://img.youtube.com/vi/LFwG4q33_eo/0.jpg)](https://www.youtube.com/watch?v=LFwG4q33_eo "Blurry")
+
+
+
 ## Support Us
 - [https://www.buymeacoffee.com/doubledude](https://www.buymeacoffee.com/doubledude)
 
