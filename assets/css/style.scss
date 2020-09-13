@@ -5,7 +5,7 @@
 .page-header {
   color: #fff;
   text-align: center;
-  background: linear-gradient(180deg, #db302a 0%, #62186b 100%) no-repeat;
+  background: linear-gradient(180deg, #db302a 0%, #78687a 100%) no-repeat;
 }
 .main-content h1,
 .main-content h2,
@@ -13,5 +13,8 @@
 .main-content h4,
 .main-content h5,
 .main-content h6 {
-  color: #62186b;
+  // color: #62186b;
+  background: -webkit-linear-gradient(#db302a, #78687a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

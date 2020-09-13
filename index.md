@@ -1,41 +1,22 @@
-## Welcome to GitHub Pages
+## Blurry - Blur 
+Blurry - Blur unwanted contents on any webpage with the customized blur level
 
-You can use the [editor on GitHub](https://github.com/doubledudes/blurry/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Have you ever wanted to blur or delete any content on a webpage before sharing it with friends?
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Have you ever felt tired of downloading and blurring some privacy content before printing from the webpage?
 
-### Markdown
+Have you ever ...
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Blurry is the Chrome Extension that allows you to _BLUR_ the contents on any webpage before do your things! The blur level can be customized and the setting will be saved across all active tabs. It also allows you to blur only the piece of content that you don't need it to show.
 
-```markdown
-Syntax highlighted code block
+How would you do when you don't want the blur anymore? Do not worry, it has an option for that, one click and all blurry masks will be removed from the webpage.
 
-# Header 1
-## Header 2
-### Header 3
+Doesn't it sound simple and make your life easier?
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/doubledudes/blurry/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Please try it out and tell us how you feel 😉
 
 ## Demo
 [![Blurry](https://img.youtube.com/vi/LFwG4q33_eo/0.jpg)](https://www.youtube.com/watch?v=LFwG4q33_eo "Blurry")
-
-
 
 ## Support Us
 - [https://www.buymeacoffee.com/doubledude](https://www.buymeacoffee.com/doubledude)
