@@ -10,18 +10,18 @@
   "browser_action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "assets/blurry-icon-32.png",
-      "32": "assets/blurry-icon-32.png",
-      "48": "assets/blurry-icon-48.png",
-      "128": "assets/blurry-icon-128.png"
+      "16": "./assets/blurry-icon-32.png",
+      "32": "./assets/blurry-icon-32.png",
+      "48": "./assets/blurry-icon-48.png",
+      "128": "./assets/blurry-icon-128.png"
     },
     "default_title": "Blurry - Blur unwanted content"
   },
   "icons": {
-    "16": "assets/blurry-icon-32.png",
-    "32": "assets/blurry-icon-32.png",
-    "48": "assets/blurry-icon-48.png",
-    "128": "assets/blurry-icon-128.png"
+    "16": "./assets/blurry-icon-32.png",
+    "32": "./assets/blurry-icon-32.png",
+    "48": "./assets/blurry-icon-48.png",
+    "128": "./assets/blurry-icon-128.png"
   },
   "content_scripts": [
     {
