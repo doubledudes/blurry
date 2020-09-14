@@ -2,3 +2,4 @@ theme: jekyll-theme-cayman
 title: Blurry
 description: The browser extension to blur unwanted contents on any webpage with the customised blur level
 show_downloads: true
+google_analytics: UA-112274923-3
