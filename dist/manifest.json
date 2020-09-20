@@ -1,6 +1,6 @@
 {
   "name": "Blurry - Blur unwanted content",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "description": "Blur content on any webpage with the customized blur level",
   "background": {
     "scripts": ["js/background.bundle.js"],
@@ -10,25 +10,25 @@
   "browser_action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "./assets/blurry-icon-32.png",
-      "32": "./assets/blurry-icon-32.png",
-      "48": "./assets/blurry-icon-48.png",
-      "128": "./assets/blurry-icon-128.png"
+      "16": "assets/blurry-icon-32.png",
+      "32": "assets/blurry-icon-32.png",
+      "48": "assets/blurry-icon-48.png",
+      "128": "assets/blurry-icon-128.png"
     },
     "default_title": "Blurry - Blur unwanted content"
   },
   "icons": {
-    "16": "./assets/blurry-icon-32.png",
-    "32": "./assets/blurry-icon-32.png",
-    "48": "./assets/blurry-icon-48.png",
-    "128": "./assets/blurry-icon-128.png"
+    "16": "assets/blurry-icon-32.png",
+    "32": "assets/blurry-icon-32.png",
+    "48": "assets/blurry-icon-48.png",
+    "128": "assets/blurry-icon-128.png"
   },
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
       "all_frames": true,
-      "js": ["./js/content.bundle.js"],
-      "css": ["./css/content.css"]
+      "js": ["js/content.bundle.js"],
+      "css": ["css/content.css"]
     }
   ],
   "manifest_version": 2
